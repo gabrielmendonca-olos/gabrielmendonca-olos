@@ -1,22 +1,24 @@
-## Ola 👋
+## 🌟 Desenvolvedor Frontend Sênior na Olos
 
-Sou Gabriel, esse perfil foi criado especialmente para o meu atual trabalho. 
-Hoje estou trabalhando de forma hybrida aqui na [Olos](https://www.olos.com.br/)
-na função de sênior frontend, por intermédio da consultoria [ Mazza Tech ](https://www.mazza.tech/).
+Olá! Sou Gabriel, e este perfil foi dedicado à minha jornada de trabalho atual.
 
-A stack que utilizamos aqui é javascript + reactjs + BEM. 
+Atualmente, atuo como **Desenvolvedor Frontend Sênior** em regime híbrido, agora **diretamente incorporado** à **Olos** (Olos.com.br). Minha jornada na Olos teve início em **outubro** (mês 10), inicialmente por intermédio de consultoria.
 
-As configurações de máquina disponibilizadas para trabalho é um windows 11 Pro, porém, para desenvolvimento, 
-estou utilizando uma VirtualBox com Ubuntu Server. 
+---
 
-Configurei uma rede NAT somente e habilitei somente a porta 2222 para 22. Assim consigo acesso ssh ao VBOX via localhost, acessando meuusuario@localhost:2222. 
-Inicialmente, havia configurado para a porta 22, mas acho que há algum conflito com o windows que gera uma lentidão muito grande no acesso por SSH. Quando alterei a porta para 2222, tive uma alta de desempenho.
+### 💻 Stack Tecnológica
 
-E por que não usar o WSL? 
-Não estou usando, por que as configurações aqui, dependem da equipe de TI e a única opção aqui é o login com usuário deles para a instalação de softwares. Logo, quando eles realizam a liberação para que 
-eu faça a instalação, o software é instalado para o usuário inserido e não para o meu. Já pesquisei um pouco sobre como reverter isso, mas acabei optando pela Vbox
+* **Stack Principal:** JavaScript, ReactJS e BEM (Block, Element, Modifier).
 
-Como editor, estou usando o VSCode de boa, ele me ajuda bastante com o plugin de acesso remoto, que me permite configurar de forma fácil os ambientes na VB e ele também já cria o tunnel SSH quando abro uma porta usando o seu temrinal, assim, não preciso liberar mais nenhuma porta NAT e também não preciso gerenciar manualmente meus tunnels ssh. 
+### ⚙️ Ambiente de Desenvolvimento Otimizado
 
-Enfim, é isso.
-Qualquer coisa, dá um grito.
+* **Ambiente Host:** Windows 11 Pro.
+* **Ambiente de Desenvolvimento:** Utilizo **Docker Desktop** rodando sob **WSL2** (Windows Subsystem for Linux 2).
+    > **Benefício:** Essa configuração proporciona um kernel Linux de alta performance e **velocidade de I/O** otimizada, essencial para o desenvolvimento Frontend (especialmente para o *Hot Module Reload* - HMR) e para a resolução de problemas de permissão do sistema legado.
+
+### 🚀 Fluxo de Trabalho Integrado
+
+Para maximizar a produtividade, meu fluxo de trabalho é centrado na integração de ferramentas:
+
+* **Editor:** VSCode com o plugin `Remote - WSL`.
+* **Vantagens:** O VSCode detecta automaticamente a distribuição Linux no WSL2 e gerencia de forma transparente o **Port Forwarding**, assegurando que o acesso aos serviços React (`e.g.`, `localhost:3000`) seja instantâneo, sem a necessidade de configurações manuais adicionais.
